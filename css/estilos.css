@@ -1,0 +1,61 @@
+/* MENU DE NAVEGACIÓN */
+.navbar{
+    background-color: #3e444a;
+}
+.navbar .navbar-brand img{
+    max-width: 120px;
+}
+/* SECCION BIENVENIDA */
+.seccion-bienvenida{
+    min-height: 80vh;
+    background: url(../img/ba1.jpg) rgba(0, 0, 0, 0.459);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center center;
+}
+.seccion-bienvenida .container{
+    min-height: 80vh;
+    display: flex;
+    align-items: flex-end;
+}
+.seccion-bienvenida .container .row{
+    margin-bottom: 8rem;
+}
+
+/* SECCION PAISAJE */
+.seccion-paisaje .col-texto{
+    background-color: #3e444a;
+    border-left: 1px solid #fff;
+}
+/* SECCION FORM */
+.seccion-formulario .texto-punteado{
+    border-bottom: 1px dotted #000;
+}
+.seccion-formulario .btn-enviar{
+    display: block;
+    background: #8bc34a;
+    width: 100%;
+    color: #fff;
+    margin-top: 1rem;
+}
+/* PIE DE PAGINA  */
+footer{
+    background-color: #204564;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul li{
+    padding: .5rem;
+    text-align: center;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
